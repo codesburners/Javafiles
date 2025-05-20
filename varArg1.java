@@ -20,7 +20,7 @@ public class varArg1 {
 
     public static void main(String[] args) {
         varArg1 obj=new varArg1();
-        System.out.println(obj.max(10,15,36,45));
+        System.out.println(obj.max(10,15,36,45,56));
     }
 
 }
