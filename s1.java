@@ -10,15 +10,15 @@ public class s1 {
         int angle3=num2+num3;
         if(angle1==angle2 && angle2==angle3)
         {
-            System.out.println("equilateral");
+            System.out.println("equilateral triangle");
         }
         else if(angle1==angle2 || angle1==angle3||angle2==angle3)
         {
-            System.out.println("isosceles");
+            System.out.println("isosceles triangle");
         }
         else if(angle1!=angle2 && angle1!=angle3 && angle2!=angle3)
         {
-            System.out.println("scalene");
+            System.out.println("scalene triangle");
         }
     }
 }
